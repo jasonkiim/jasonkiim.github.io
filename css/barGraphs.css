@@ -1,0 +1,81 @@
+#skillset .ar-barContainer{
+	padding: 15px;
+	text-align: initial;
+}
+#skillset .ar-bar{
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	height: 20px;
+	border-radius: 7px;
+}
+#skillset .ar-progress{
+	background: rgba(129, 57, 131, 0.77);
+	height: 100%;
+	display: inline-block;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	transition: all 0.3s 0.5s;
+}
+#skillset .ar-progress.percent-5{
+	width:5%;
+}
+#skillset .ar-progress.percent-10{
+	width:10%;
+}
+#skillset .ar-progress.percent-15{
+	width:15%;
+}
+#skillset .ar-progress.percent-20{
+	width:20%;
+}
+#skillset .ar-progress.percent-25{
+	width:25%;
+}
+#skillset .ar-progress.percent-30{
+	width:30%;
+}
+#skillset .ar-progress.percent-35{
+	width:35%;
+}
+#skillset .ar-progress.percent-40{
+	width:40%;
+}
+#skillset .ar-progress.percent-45{
+	width:45%;
+}
+#skillset .ar-progress.percent-50{
+	width:50%;
+}
+#skillset .ar-progress.percent-55{
+	width:55%;
+}
+#skillset .ar-progress.percent-60{
+	width:60%;
+}
+#skillset .ar-progress.percent-65{
+	width:65%;
+}
+#skillset .ar-progress.percent-70{
+	width:70%;
+}
+#skillset .ar-progress.percent-75{
+	width:75%;
+}
+#skillset .ar-progress.percent-80{
+	width:80%;
+}
+#skillset .ar-progress.percent-85{
+	width:85%;
+}
+#skillset .ar-progress.percent-90{
+	width:90%;
+}
+#skillset .ar-progress.percent-95{
+	width:95%;
+}
+#skillset .ar-progress.percent-100{
+	width:100%;
+}
+#skillset.deactive .ar-progress{
+	width: 0;
+}
