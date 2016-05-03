@@ -269,9 +269,7 @@ header {
     text-align: center;
     color: #ffffff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background: -moz-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255, 1));
-
+    background-image: url(../img/header-bg.jpg);    
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
