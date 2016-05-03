@@ -67,6 +67,9 @@ h6 {
 .bg-light-gray {
     background-color: #f7f7f7;
 }
+.bg-white {
+    background-color: #ffffff;
+}
 
 .bg-darkest-gray {
     background-color: #222;
@@ -254,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #813983 ;
+        background-color: #65187A ;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -264,9 +267,11 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #222;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255, 1));
+
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -653,14 +658,14 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#contact .section-heading {
-    color: #222;
+    color: white;
 }
 
 section#contact .form-group {
