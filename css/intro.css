@@ -10,7 +10,7 @@
 
 .sentence{
      color: #222;
-     font-size: 3vh;
+     font: 3vh Lato;
      text-align: relative;
      margin-left: 21%;
      transition: all 0.1s;
