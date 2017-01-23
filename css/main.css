@@ -125,6 +125,15 @@ svg {
 	}
 }
 
-
+@media (max-width: 800px) {
+  .changing-text{
+    margin-left: 5%;
+  }
+  .intro{
+    margin-left: 2.5%;
+    width: 95%;
+    margin-top: 15px;
+  }
+}
 
 
