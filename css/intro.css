@@ -28,7 +28,7 @@
 /*Vertical Sliding*/
 .slidingVertical{
 	display: inline;
-	text-indent: 29px;
+	text-indent: 12px;
 }
 .slidingVertical span{
 	animation: topToBottom 9s linear infinite 3s;
@@ -37,6 +37,7 @@
 	color: #47D9BF;
 	opacity: 0;
 	overflow: hidden;
+	margin-top: 1px;
 	position: absolute;
 }
 .slidingVertical span:nth-child(2){
