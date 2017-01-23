@@ -1,0 +1,130 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: #FAEBD7;
+  background-size:100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAEBD7;
+    font: 110px Montserrat;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #47D9BF;
+    text-align: center;
+    padding: 66px 98px;
+    text-decoration: none;
+    margin-left: -12%;
+}
+
+li a:hover {
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.intro {
+  font: 13em/1 Montserrat;
+  position: relative;
+  margin-top: calc(15vh - 400px);
+
+}
+.text--line {
+  font-size: .5em;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.text-copy {
+  fill:none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 4px;
+  -webkit-animation: stroke-offset 2s linear forwards, fill-gradual 4.5s linear forwards;
+  		animation: stroke-offset 2s linear forwards, fill-gradual 4.5s linear forwards;
+}
+.text-copy:nth-child(1) {
+  stroke: #000000;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(2) {
+  stroke: #000000;
+  stroke-dashoffset: 14%;
+}
+.text-copy:nth-child(3) {
+  stroke: #000000;
+  stroke-dashoffset: 21%;
+}
+.text-copy:nth-child(4) {
+  stroke: #000000;
+  stroke-dashoffset: 28%;
+}
+.text-copy:nth-child(5) {
+  stroke: #000000;
+  stroke-dashoffset: 35%;
+}
+
+/*.changing-text {
+	margin-left: 80%;
+	margin-top: 15px;
+}*/
+
+.sentence.hidden {
+  opacity: 0;
+}
+
+@media (max-width: 800px) {
+	.changing-text{
+		margin-left: 5%;
+	}
+	.text-copy{
+		margin-left: 2.5%;
+		width: 95%;
+		margin-top: 15px;
+	}
+}
+
+@-webkit-keyframes stroke-offset {
+  0% {
+  	stroke: #000000;
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 100%;
+  }
+}
+
+@keyframes stroke-offset {
+  0% {
+  	 stroke: #000000;
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 100%;
+  }
+}
+
+@keyframes fill-gradual {
+	stroke: #000000;
+	0% {
+		fill: none;
+	}
+	50% {
+		fill: transparent;
+	}
+	100% {
+		fill: black;
+	}
+}
+
+
+
+

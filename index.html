@@ -18,11 +18,10 @@
     <link rel="icon" href="img/misc/gear.png">
     <title>Jason Kim</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/intro.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,725 +29,73 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <link href="css/barGraphs.css" rel="stylesheet">
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
-<body id="page-top" class="index">
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a  href="index.html">Home</a></li>
+      <li><a  href="about.html">About</a></li>
+      <li><a  href="projects.html">Projects</a></li>
+      <li><a  href="resume/JasonKim2A.pdf">Resume</a></li>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
+    </ul>
+  </div>
+    <div class="intro">
+            <svg viewBox="0 0 2000 600">
+                 <symbol id="s-text">
+                    <text text-anchor="middle"
+                          x="50%"
+                          y="68%"
+                          class="text--line2"
+                          >
+                      JASON KIM
+                    </text>
+                    df
+                  </symbol>
+                  
+                  <g class="g-ants">
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                  </g>
+
+            </svg>
+
+            <div class="sentence-container">
+              <h2 class="sentence hidden">I'm a
+                <div class="slidingVertical">
+                  <span>Mechatronics Engineering Student</span>
+                  <span>Developer</span>
+                  <span>Photographer</span>
+                  <span>Kimchi Enthusiast</span>
+                </div>
+              </h2>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#aboutme">About Me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skillset">My Skillset</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                    <div class="team-member" >
-                        <img src="img/me/1.jpg" class="img-responsive img-circle" alt="" >
-
-               <br><br><br>
-                <div class="intro-heading">Jason Kim</div>
-                        
-                <a href="resume/JasonKim2A.pdf" class="page-scroll btn btn-xl">View My Resume</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- aboutme Section -->
-    <section id="aboutme"class="bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">EDUCATION</h4>
-                    <p class="text-muted">I am a second year student studying Mechatronics Engineering at the Unviersity of Waterloo, Class of 2020. I'm currently looking for internship opportunities for Summer 2017</p>
-                </div>
-
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa fa-cog fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">OBJECTIVE</h4>
-                    <p class="text-muted">I'm passionate about embedded systems and robotics,as well as making an impact in every field I come across.</p>
-                </div>
-
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">I LOVE</h4>
-                    <p class="text-muted">Coding, making interesting projects with Arduino and Raspberry Pi, and playing the guitar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/FinalProject1A/1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Digital Colour-Based Sorter</h4>
-                        <p class="text-muted">Ball Colour Detection & Sorting Robot</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Fuelcell/Preview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Fuel-Cell Car</h4>
-                        <p class="text-muted">Hydrogen Fuel Cell Car</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/StepperMotor/Preview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Stepper-Motor Driver</h4>
-                        <p class="text-muted">Controlled a stepper motor with basic electrical and hardware knowledge</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/MindBound/5.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Mind Bound</h4>
-                        <p class="text-muted">Easy-to-use, multi-user calendar application made with Java</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/PushBox/Preview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>PushBox</h4>
-                        <p class="text-muted">Recreation of the game "Push Box" made using Java</p>
-                    </div>
-                </div>
-                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Bonkers/Preview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Bonkers</h4>
-                        <p class="text-muted">Recreation of the game "Bonkers" from "The Price is Right" made using Java"</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Dice/Preview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dice Game</h4>
-                        <p class="text-muted">Recreation of the game "The Dice Game" from "The Price is Right" made using Java</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-    <!-- Skil Set Section -->
-    <section id="skillset" class="bg-white deactive">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"> 
-                    <h2 class="section-heading">Skill Sets</h2>
-        <div class="container">
-            <br><br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h3 class = "section-heading">Hard Skills</h3>
-                    <div class="ar-barContainer">
-                        <span>Java</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-90"></div>
-                        </div>
-                        <span>C/C++</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-80"></div>
-                        </div>
-                        <span>Python</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-65"></div>
-                        </div>
-                        <span>HTML & CSS</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-50"></div>
-                        </div>
-                        <span>Bootstrap</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-70"></div>
-                        </div>
-                        <span>Machine Learning</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-10"></div>
-                        </div>
-
-                    </div>
-                    
-                </div>
-                <div class="col-lg-6">
-                        <h3 class = "section-heading">Soft Skills</h3>
-                    <div class="ar-barContainer">
-                        <span>Goal Oriented</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-100"></div>
-                        </div>
-                        <span>Communication</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-85"></div>
-                        </div>
-                        <span>Team Skills</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-90"></div>
-                        </div>
-                        <span>Problem Solving</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-75"></div>
-                        </div>
-                        <span>Leadership</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-100"></div>
-                        </div>
-                        <span>Adaptability</span>
-                        <div class="ar-bar">
-                            <div class="ar-progress percent-95"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"> 
-                    <h2 class="section-heading">Contact Me</h2>
-
-                    <ul class="list-inline social-buttons">
-                            <li><a href="https://www.facebook.com/jasonkim2696"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://ca.linkedin.com/in/jasonkiim"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jasonkiim"><i class="fa fa-github"></i></a>
-                            </li>
-                        </ul>
-                        <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"> 
-                <h5>Jason Kim  |  +1 (226)-606-3156  |  University of Waterloo  |  Mechatronics Engineering  |  Class of 2020</h5>
-        </div>
     </div>
 
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Dice Game</h2>
-                            <p class="item-intro text-muted">Recreation of the game "The Dice Game" from "The Price is Right" made using Java</p>
-                            <p>
-                               This was my very first Java game that I created for my Grade 11 Computer Science course. This game is a remake of a famous game from a tv show "The Price is Right", redesigned by myself. The game is heavily graphics-based.
-                               <br><br>
-                               From this project, I learned various graphic components of Java, as well as implementations of extremely basic computer science knowledge.
-                            </p>
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: October 2014</li>
-                                    <li>Category :: Software</li>
-                                    <li>COMPLETED :: 1 Month</li>
-                                    <li>Tools Used :: Java, Ready to Program IDE</li>
-                                </ul>
-                            </strong>
-
-                             <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/Dice-Game">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>
-
-                            <img class="img-responsive img-centered" src="img/portfolio/Dice/1.png" alt="">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Bonkers</h2>
-                            <p class="item-intro text-muted">Recreation of the game "The Dice Game" from "The Price is Right" made using Java</p>
-                            <p>
-                               This was my very second Java game that I created for my Grade 11 Computer Science course. This game is a remake of a famous game from a tv show "The Price is Right", redesigned by myself. The game is heavily graphics-based.
-                               <br><br>
-                               From this project along with the Dice Game, I learned various graphic components of Java, as well as implementations of extremely basic computer science knowledge.
-                            </p>
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: November 2014</li>
-                                    <li>Category :: Software</li>
-                                    <li>COMPLETED :: 1 Month</li>
-                                    <li>Tools Used :: Java, Ready to Program IDE</li>
-                                </ul>
-                            </strong>
-                            
-                             <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/Dice-Game">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>
-
-
-                            <img class="img-responsive img-centered" src="img/portfolio/Bonkers/1.png" alt="">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>PushBox</h2>
-                            <p class="item-intro text-muted">Recreation of the game "Push Box" made using Java</p>
-                        
-                            <p>
-                              The PushBox was my final project for Grade 11 Computer Science. This project was completed in two months, and it is essentially a remake of a famous online classic game, "PushBox". The project was redesigned, and completed on Java, using Ready to Program IDE.
-                              
-                              <br> <br>
-                              This project is heavily graphics based, and all the maps were made with 2D arrays with hitboxes. The maps were dividing into square tiles, and each tiles represented different elements of the map. 
-                            </p>
-
-                             <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: October 2014</li>
-                                    <li>Category :: Software</li>
-                                    <li>COMPLETED :: 2 Months</li>
-                                    <li>Tools Used :: Java, Ready to Program</li>
-                                </ul>
-                            </strong>
-
-                             <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/PushBox">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>
-
-                            <img class="img-responsive img-centered" src="img/portfolio/PushBox/Level 1.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/PushBox/Level 2.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/PushBox/Level 3.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/PushBox/Level 4.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/PushBox/Level 5.png" alt="">
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Mind Bound</h2>
-                            <p class="item-intro text-muted">Easy-to-use and multi-user calendar application made using Java</p>
-                            <p>
-                              The Mind Bound is my first project working with OOP, various data structures, file structures, graphics, etc. The goal of this project was to design and launch a calendar application with a multi-user function, as well as a to-do-list function
-                              <br><br>
-                              The program takes in, and remembers different users and store their data in a binary file. Each users are able to create events by a to-do-list addon on the calendar. This was approached via LinkedLists and Inheritance.
-                              <br><br>
-                              The calendar itself was designed using hitboxes of 2D arrays, and the calendar data, such as Years, Months, were approached via Inheritance, LinkedLists, and manipulation of text files. 
-                              <br><br>
-
-                            </p>
-
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: October 2015</li>
-                                    <li>Category :: Software</li>
-                                    <li>COMPLETED :: 3 Months</li>
-                                    <li>Tools Used :: Java, Eclipse IDE</li>
-                                </ul>
-                            </strong>
-
-                            <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/Calendar-Application">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>
-
-                            <img class="img-responsive img-centered" src="img/portfolio/MindBound/1.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/MindBound/2.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/MindBound/3.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/MindBound/4.png" alt="">
-
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Stepper Motor Driver</h2>
-                            <p class="item-intro text-muted">Controlled a stepper motor with basic electrical and hardware knowledge</p>
-                            <p>
-                             This project was done for my Computer Engineering class in Grade 12. The goal of the project was to design, and come up with an algorithm that drives the stepper motor driver using gates and flip-flops. This was my first exposure to electornics, as I built the algorithm from scratch with the use of different components on the breadboard. I've learned how to design/read schematics diagrams using National Instruments Multisim, and learned basic functionality of electronics. 
-                            </p>
-
-                            <br><br>
-                            
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: January 2015</li>
-                                    <li>Category :: Electronics</li>
-                                    <li>COMPLETED :: 3 Weeks</li>
-                                    <li>Tools Used :: Basic electronic components (Flipflops, gates, breadboard), NI Multisim</li>
-                                </ul>
-                            </strong>
-                            
-                            <img class="img-responsive img-centered" src="img/portfolio/StepperMotor/1.png" alt="">
-                            <img class="img-responsive img-centered" src="img/portfolio/StepperMotor/2.png" alt="">
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 6 --> <!-- fuelcell -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Fuel Cell Car</h2> 
-                            <p class="item-intro text-muted">Hydrogen Fuel-celled Toy Car</p>
-                            <p>
-                                The goal of this project was to build a car powered by hydrogen fuel-cells. The additional factor to this project was to create a line-following algorithm, so that the fastest team that completed the line-mze tracks got the highest mark. 
-                                <br><br>
-                                This project was a mix of three core courses, CHE102 (Chemistry), MTE100 (Mechatronics Engineering), GENE121 (C++). Our team had to research the pressure vessels associated with each fuel-cell, as well as the gas transfer to maximize the run-time. Once the research was done, we performed various chemical calculations to determine how much hydrogen fuel was created. As for the programming, we were given a designated IDE to successfully code the line-following algorithm. Bascially, the algorithm would allow the robot to follow the line-maze around the tracks and get to the endpoints without interffering with the obstacles.
-                                <br><br>
-                                This was my very first group project with my cohorts, and it was really interesting how I was able to integrate core courses to build a robot that runs on hydrogen-cells and navigate itself on line-maze.
-                                <br><br>
-                             </p>   
-
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: October 2015</li>
-                                    <li>Category :: Robotics, Software, Chemistry</li>
-                                    <li>COMPLETED :: 2 Months</li>
-                                    <li>Tools Used :: TI Launchpad, Code Blocks</li>
-                                </ul>
-                            </strong>
-                            <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/Autonomous-Fuel-Cell">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>
-                            <img class="img-responsive img-centered" src="img/portfolio/Fuelcell/1.png" alt="">
- 
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                              <h2>Digital Colour-Based Sorter</h2>
-                            <p class="item-intro text-muted">Ball Colour Detection & Sorting Robot</p>
-
-                            <p>
-                                The Digital Colour-Based Sorter was final group project for my 1A term, in which the objective of the robot was to detect different coloured balls and sort them into corresponding bins. We used motion sensors, colour sensors, as well as two servo motors to create the robot. 
-                            </p>                          
-                            <strong>
-                                <ul class="list-inline">
-                                    <li>Date Started :: October 2015</li>
-                                    <li>Category :: Robotics, Software</li>
-                                    <li>COMPLETED :: 3 Months</li>
-                                    <li>Tools Used :: LEGO-NXT, ROBOT C</li>
-                                </ul>
-                            </strong>
-                            <img class="img-responsive img-centered" src=" img/portfolio/FinalProject1A/2.png" alt="">
-                            <img class="img-responsive img-centered" src=" img/portfolio/FinalProject1A/3.png" alt="">
-                            <img class="img-responsive img-centered" src=" img/portfolio/FinalProject1A/4.png" alt="">
-
-                            <a class="btn btn-lg btn-danger" href="https://github.com/jasonkiim/DCB_Sorter">
-                            <i class="fa fa-github"></i>       View Code</a>
-                            <br> <br><br><br><br>  
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-    <script src="js/barGraphs.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

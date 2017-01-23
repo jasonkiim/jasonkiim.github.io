@@ -1,0 +1,139 @@
+/*These styles contain basic styles for fomatting along with our animation css*/
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #FAEBD7;
+  background-size:100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAEBD7;
+    font: 27.5px Montserrat;
+}
+
+li {
+    float: left;
+}
+ 
+li a {
+    display: block;
+    color: #47D9BF;
+    text-align: center;
+    padding: 11px 24.8px;
+    text-decoration: none;
+    margin-left: -22%;
+}
+
+li a:hover {
+    -webkit-text-fill-color: #FFFFFF;
+}
+.project {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border: 100px;
+    background: #FAEBD7;
+}
+
+.project h1,
+.project h2,
+.project h3,
+.project h4,
+.project h5,
+.project h6{
+  color:#000000;
+}
+.projTitle{
+  height: auto;
+  display:block;
+  border-radius: 5px;
+  font: 20px Nunito;
+  margin-bottom: 30px;
+}
+
+.projImage{
+  width: 55%;
+  display: inline-block;
+  float: left;
+  clear: left;
+}
+.site.projImage {
+  border: 1px solid;
+  border-radius
+}
+
+.projImage img{
+  width: 100%;
+}
+.bigpics.description{
+  margin-top: -490px;
+}
+
+.description{
+    font: 1.1em Roboto;
+    margin-top: -324px;
+    margin-bottom: -205px;
+    margin-left: 60%;
+    text-align: justify;
+    float: left;
+    width: 53%;
+    line-height: 1.5;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font: 18px Montserrat;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+.btn-danger {
+    font: 155px ;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925
+}
+.btn-group-lg>.btn,
+.btn-lg {
+    margin-left: 55px;
+    margin-top: 230px;
+    padding: 9px 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+
+}
+.bigpics.btn-lg {
+    margin-top: 280px;
+}
+.digital.btn-lg {
+    margin-top: 200px;
+}
+.push.btn-lg {
+  margin-top: 220px;
+}
