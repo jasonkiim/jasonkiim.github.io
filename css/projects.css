@@ -47,7 +47,8 @@ li a:hover {
   display: inline-block;
   font: 20px Nunito;
   width: 50%;
-  padding: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
   float: left;
 }
 
@@ -57,19 +58,20 @@ li a:hover {
 
 .right {
   display: inline-block;
-  margin-top: 6%;
   font: 1.1em Roboto;
+  margin-right:25px;
   width: 45%;
   padding: 10px;
   float: left;
 }
 
 .left img{
-  width: 100%;
+  width: 90%;
   border: 1px solid;
 }
 
 .description{
+    margin:0;
     font: 1.1em Roboto;
     text-align: justify;
     float: none;
