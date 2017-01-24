@@ -1,5 +1,3 @@
-/*These styles contain basic styles for fomatting along with our animation css*/
-
 body {
   height: 100%;
   width: 100%;
@@ -20,28 +18,20 @@ ul {
 li {
     float: left;
 }
-
+ 
 li a {
     display: block;
     color: #47D9BF;
     text-align: center;
     padding: 11px 24.8px;
     text-decoration: none;
-    margin-left: -22%;
 }
 
 li a:hover {
     -webkit-text-fill-color: #FFFFFF;
 }
-
 .project {
-    width: 76%;
-    margin-left: 0%;
-    margin-top: 80px;
-    padding-bottom: 50px;
-    border: 100px;
-    background: #FAEBD7;
-
+    padding-bottom: 40%;
 }
 
 .project h1,
@@ -52,37 +42,38 @@ li a:hover {
 .project h6{
   color:#000000;
 }
-.projTitle{
-  height: auto;
-  display:block;
-  border-radius: 5px;
-  font: 20px Nunito;
-  margin-bottom: 30px;
-}
 
-.projImage{
-  width: 65%;
-  margin-left: 30px;
+.left {
   display: inline-block;
+  font: 20px Nunito;
+  width: 50%;
+  padding: 15px;
   float: left;
-  clear: left;
 }
 
-.projImage img{
-  width: 100%;
+.left.projTitle{
+  font: 20px Nunito;
 }
-.bigpics.description{
-  margin-top: -490px;
+
+.right {
+  display: inline-block;
+  font: 1.3em Roboto;
+  width: 45%;
+  padding: 10px;
+  float: left;
+}
+
+.left img{
+  width: 100%;
+  border: 1px solid;
+
 }
 
 .description{
-    font: 1.6em Nunito;
-    margin-top: -590px;
-    margin-bottom: -278px;
-    margin-left: 70%;
+    margin: 0;
+    font: 1.1em Roboto;
     text-align: justify;
-    float: left;
-    width: 58%;
+    float: none;
     line-height: 1.5;
 }
 .btn {
@@ -119,11 +110,56 @@ li a:hover {
 }
 .btn-group-lg>.btn,
 .btn-lg {
-    margin-left: 34px;
-    margin-top: 350px;
+    float:left;
+    margin-left: 10px;
     padding: 9px 10px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px
 
+}
+
+@media (max-width: 1100px) {
+  .project{
+    margin-left: 5%;
+    width: 90%;
+  }
+  .projImage{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .description{
+    float:left;
+    width: 57%;
+    margin:0;
+    margin-top:50px; 
+    margin-left: 7%;
+  }
+  .linkToProject{
+    float: left;
+    clear: both;
+  }
+}
+
+@media (max-width: 800px) {
+  .project{
+    width: 100%;
+    margin-left: 0;
+  }
+  .projTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .projImage{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .description{
+    float:left;
+    width: 90%;
+    margin:0;
+    margin-top:0px; 
+    margin-left: 5%;
+  }
 }

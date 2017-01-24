@@ -12,7 +12,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FAEBD7;
-    font: 28px Montserrat;
+    font: 27.5px Montserrat;
 }
 
 li {
@@ -23,9 +23,8 @@ li a {
     display: block;
     color: #47D9BF;
     text-align: center;
-    padding: 11px 23.5px;
+    padding: 11px 24.8px;
     text-decoration: none;
-    margin-left: -18%;
 }
 
 li a:hover {
@@ -35,7 +34,7 @@ li a:hover {
 .intro {
   font: 13em/1 Montserrat;
   position: relative;
-  margin-top: calc(53vh - 400px);
+
 
 }
 .text--line {
