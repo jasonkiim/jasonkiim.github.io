@@ -57,7 +57,7 @@ li a:hover {
 
 .right {
   display: inline-block;
-  margin-top: 5.1%;
+  margin:0;
   font: 1.1em Roboto;
   width: 45%;
   padding: 10px;
@@ -67,7 +67,6 @@ li a:hover {
 .left img{
   width: 100%;
   border: 1px solid;
-
 }
 
 .description{
