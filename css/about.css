@@ -56,6 +56,7 @@ li a:hover {
 }
 
 .right {
+  margin: 0;
   display: inline-block;
   font: 1.3em Roboto;
   width: 45%;
