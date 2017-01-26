@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: #FAEBD7;
+  background: #f2f2f2;
   background-size:100%;
 }
 
@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FAEBD7;
+    background-color: #f2f2f2;
     font: 20px Josefin Sans;
 }
 
@@ -21,14 +21,14 @@ li {
  
 li a {
     display: block;
-    color: #d3d3d3;
+    color: #000000;
     text-align: center;
     padding: 11px 24.8px;
     text-decoration: none;
 }
 
 li a:hover {
-    -webkit-text-fill-color: #d7e6fa;
+    -webkit-text-fill-color: #d3d3d3;
 }
 .project {
 }
