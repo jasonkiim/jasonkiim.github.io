@@ -10,7 +10,7 @@
 
 .sentence{
      color: #222;
-     font: 3vh Montserrat;
+     font: 3vh Josefin Sans;
      text-align: relative;
      margin-left: 21%;
      transition: all 0.1s;
@@ -31,9 +31,9 @@
 	text-indent: 12px;
 }
 .slidingVertical span{
-	animation: topToBottom 9s linear infinite 3s;
-	-ms-animation: topToBottom 9s linear infinite 3s;
-	-webkit-animation: topToBottom 9s linear infinite 3s;
+	animation: topToBottom 8s linear infinite 3s;
+	-ms-animation: topToBottom 8s linear infinite 3s;
+	-webkit-animation: topToBottom 8s linear infinite 3s;
 	color: #47D9BF;
 	opacity: 0;
 	overflow: hidden;

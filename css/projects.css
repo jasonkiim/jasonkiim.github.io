@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: #FAEBD7;
+  background: #f2f2f2;
   background-size:100%;
 }
 
@@ -11,8 +11,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FAEBD7;
-    font: 27.5px Montserrat;
+    background-color: #f2f2f2;
+    font: 20px Josefin Sans;
 }
 
 li {
@@ -21,17 +21,16 @@ li {
  
 li a {
     display: block;
-    color: #47D9BF;
+    color: #000000;
     text-align: center;
     padding: 11px 24.8px;
     text-decoration: none;
 }
 
 li a:hover {
-    -webkit-text-fill-color: #FFFFFF;
+    -webkit-text-fill-color: #d3d3d3;
 }
 .project {
-    padding-bottom: 40%;
 }
 
 .project h1,
@@ -45,20 +44,17 @@ li a:hover {
 
 .left {
   display: inline-block;
-  font: 20px Nunito;
+  font: 30px Nunito;
   width: 50%;
   padding-left: 15px;
   padding-top: 15px;
   float: left;
-}
 
-.left.projTitle{
-  font: 20px Nunito;
 }
 
 .right {
   display: inline-block;
-  font: 1.1em Roboto;
+  font: 1.1em Josefin Sans;
   margin-right:25px;
   width: 45%;
   padding: 10px;
@@ -66,13 +62,13 @@ li a:hover {
 }
 
 .left img{
+    border-radius: 30px;
   width: 90%;
-  border: 1px solid;
 }
 
 .description{
     margin:0;
-    font: 1.1em Roboto;
+    font: 1.1em Josefin Sans;
     text-align: justify;
     float: none;
     line-height: 1.5;
