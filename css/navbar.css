@@ -1,0 +1,33 @@
+
+.navbar body {
+  height: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  background-size:100%;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font: 20px Josefin Sans;
+}
+
+.navbar li {
+    float: left;
+}
+ 
+.navbar li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 11px 24.8px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    -webkit-text-fill-color: #d3d3d3;
+}
